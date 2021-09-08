@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header{
+   width: 100%;
+   height: 60vh;
+   background-color: #fff;
+   position: relative;
+}
+.header .navBar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+}
+.logo a{
+    margin-left: 7em;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #000;
+    font-family: 'Black Ops One', cursive;
+}
+.menu ul li{
+    color: rgb(77, 76, 76);
+    display: inline-block;
+    position: relative;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 1.25em;
+    font-weight: 400;
+    align-items: center;
+    position: relative;
+}
+
+.login{
+    display: block;
+    cursor: pointer;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: rgb(22, 20, 20);
+    border-radius: 10px;
+    border: 5px solid yellow;
+    /* border-color: rgb(238, 225, 37); */
+    padding: 8px 35px;
+    margin-right: 7em;
+    transition: 0.4s;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color: #fff;
+}
+.app-text{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+}
+.app-text h3{
+    margin-top:100px ;
+    font-size: 17px;
+    color: rgb(30, 30, 32);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.app-text h1{
+    font-size: 51px;
+    position: relative;
+    color:rgb(30, 30, 32);
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
+.app-text p{
+    font-size: 19px;
+    margin: 30px 30px 30px 0;
+    letter-spacing: 1px;
+    color: rgb(30, 30, 32);
+    padding-right: 250px;
+
+}
+.btn-grp{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.btn-grp .signup{
+    cursor: pointer;
+    display: block;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 32px;
+    background-color: #ffa037;
+    padding: 15px 50px;
+
+}
+.btn-grp span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin:15px 15px 0px 10px ;
+    cursor: pointer;
+}
+.btn-grp .play-btn{
+    margin-left: 40px;
+    display: inline-flex; 
+}
+.btn-grp{
+    display: flex;
+    align-items: center;
+}
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: rgb(35, 35, 39);
+
+}
+.fas{
+    padding: 7px 0px 0px 25px; 
+    font-size: 40px ;
+    cursor: pointer ;
+    color: rgb(35, 35, 39);
+}
+.about-services{
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 300px;
+}
+.about-services ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;   
+}
+.about-services ul li{
+    margin: 0 50px;
+    cursor: pointer;
+}
+.about-services ul li img{
+    width: 120px;
+    height: auto;
+}
+
+.about-services ul li h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about-services ul li p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.nav-hover::after{
+    content: "";
+    position: absolute;
+    background-color: tomato;
+    width: 0%;
+    height: 4px;
+    left: 16px;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.nav-hover-4::after{
+    content: "";
+    position: absolute;
+    background-color: tomato;
+    width: 0%;
+    height: 4px;
+    left:19px;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.nav-hover:hover::after{
+    width: 70%;
+}
+.nav-hover-4:hover::after{
+    width: 70%;
+}
+.login:hover{
+    background-color: yellow;
+}
+.nav-hover:hover {
+    color: black;
+}
+.nav-hover-4:hover {
+    color: black;
+}
+.social-icons{
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+.social-icons ul li{
+    margin-top: 5px;
+    text-align: center;
+}
+.social-icons ul li a{
+    color: #000;
+    padding: 10px;
+    display: block;
+    font-size: 29px;
+}
+.social-icons ul li a:hover{
+    background-color: #220efb;
+    color: #fff;
+    border-radius: 5px;
+}
