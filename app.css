@@ -205,10 +205,10 @@ ul{
     background-color: yellow;
 }
 .nav-hover:hover {
-    color: black;
+    color: rgb(31,34,38);
 }
 .nav-hover-4:hover {
-    color: black;
+    color: rgb(31,34,38);
 }
 .social-icons{
     position: fixed;
